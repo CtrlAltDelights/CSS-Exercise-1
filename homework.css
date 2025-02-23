@@ -1,0 +1,129 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    font-family:  "Inter", sans-serif;
+    background-color: #ecebeb;   
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+    margin: 10px;
+}
+
+h1{
+    text-wrap: balance;
+    margin: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+.P-head{
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: none;
+    width: 40%;
+    margin: 10px;
+    
+    
+    
+}
+.spanblue {
+    background-color: rgb(29, 146, 218);
+    color: rgb(248, 245, 242);
+    border-radius: 15px;
+    font-size: 4rem;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 600;
+}
+.spangreen {
+    background-color: rgb(0, 157, 60);
+    color: rgb(47, 46, 46);
+    border-radius: 15px;
+    font-size: 4rem;
+    margin: 10px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.spanyellow {
+    background-color: #f8df22;
+    margin: 10px;
+    color: rgb(47, 46, 46);
+    border-radius: 15px;
+    font-size: 3rem;
+    padding: 5px;
+    font-weight: 600;
+    
+}
+
+.box-abc {
+    display: flex;
+}
+
+.box3{
+    justify-content: space-evenly;
+    flex: 33%;
+}
+
+span {
+    font-size: 1.7rem;
+}
+
+.button{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px#2e2f30;
+}
+
+.linetwo,.linethree{
+    margin-top: -3px;
+}
+    
+    
